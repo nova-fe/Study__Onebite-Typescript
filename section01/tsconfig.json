@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true, // 라이브러리 타입 검사 건너뛰기 (빌드 시간 단축)
+    "target": "ESNext", // 컴파일할 버전
+    "module": "ESNext", // 모듈 시스템
+    "outDir": "dist", // 컴파일된 js 파일들을 다른 경로로 내보내고 싶을 때
+    "strict": false, // 엄격모드,
+    "moduleDetection": "force" // TS는 기본적으로 모든 ts 파일을 전역 모듈로 봄 -> 개별 공간으로 분리해주기 위해 사용
+  },
+  "include": ["src"]
+}
