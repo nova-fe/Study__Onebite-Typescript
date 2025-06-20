@@ -6,6 +6,7 @@
     "outDir": "dist", // 컴파일된 js 파일들을 다른 경로로 내보내고 싶을 때
     "strict": false, // 엄격모드,
     "moduleDetection": "force" // TS는 기본적으로 모든 ts 파일을 전역 모듈로 봄 -> 개별 공간으로 분리해주기 위해 사용
+    // "strictNullChecks": false // 엄격한 null 검사(null 타입이 아닌 변수에 null값 할당할지 말지 등)
   },
   "include": ["src"]
 }
