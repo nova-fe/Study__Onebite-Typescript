@@ -5,6 +5,7 @@
 interface Person {
   readonly name: string;
   age?: number;
+  // 타입 정의 방식: 호출 시그니처
   sayHi(): void;
   sayHi(a: number, b: number): void;
   // 유니온이나 인터섹션 타입은 만들 수 없음
