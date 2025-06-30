@@ -35,7 +35,7 @@ type Dog = {
   color: string;
 };
 
-let animalFunc = (aanimal: Animal) => {
+let animalFunc = (animal: Animal) => {
   console.log(animal.name);
 };
 
