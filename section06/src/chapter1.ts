@@ -29,7 +29,7 @@ class Employee {
   }
 }
 
-// 확장
+// 파생 클래스
 class Manager extends Employee {
   // 필드
   officeNumber: number;
