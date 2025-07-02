@@ -13,7 +13,7 @@ const [a, b] = swap("1", 2);
  * 두번째 사례
  */
 // 튜플인데 첫번째 요소의 타입은 T이고 나머지 요소는 배열로 여러개 들어올 것 같은데 타입은 모르겠다.
-function returnFirstValue<T extends { length: number }>(data: [T, ...unknown[]]) {
+function returnFirstValue<T>(data: [T, ...unknown[]]) {
   return data[0];
 }
 
@@ -30,4 +30,4 @@ function getLength<T extends { length: number }>(data: T) {
 let var1 = getLength([1, 2, 3]);
 let var2 = getLength("12345");
 let var3 = getLength({ length: 10 });
-let ver4 = getLength(10);
+// let ver4 = getLength(10);
